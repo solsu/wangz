@@ -1,0 +1,254 @@
+/*
+* @Author: lisheng
+* @Date:   2018-06-07 17:31:56
+* @Last Modified by:   lisheng
+* @Last Modified time: 2018-06-07 17:32:54
+*/
+/*
+* @Author: lisheng
+* @Date:   2018-05-31 18:34:13
+* @Last Modified by:   lisheng
+* @Last Modified time: 2018-06-04 18:56:41
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html { overflow-x: hidden; overflow-y: auto; }
+
+a{
+	/* 去除a标签的下划线 */
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 105px;
+	padding-top: 5px;
+	background: white;
+	
+	background: url('../img/beijing.jpg') no-repeat top center;
+}
+.head{
+	width: 1260px;
+	height: 105px;
+	margin: 0 auto 0;
+	position: relative;
+
+}
+.top{
+	width: 100%;
+	height: 105px;
+	background: white;
+}
+.head_nav{
+	width: 665px;
+	height: 36px;
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+.head_nav ul li:hover a{
+	color: lightblue;
+}
+.head_nav ul li:hover .quick_nav{
+	transform:scale(0.8);
+	transition: all 0.8s;
+}
+.head_nav .last{
+	display: flex;
+	justify-content: space-between;
+	color: black;
+}
+.head_nav .last li a{
+	color: black;
+}
+.head_nav .last .quick_nav{
+	display: block;
+    width: 71px;
+    height: 36px;
+    background: url('../img/nav.jpg') no-repeat center;
+    color: #631c1c;
+    font-size: 14px;
+    line-height: 34px;
+    position: relative;
+    padding-left: 32px;
+    top: -5px;
+    color: white;
+}
+.s1{
+	width: 100%;
+	height: 200px;
+	background: url('../img/top_bg.jpg')
+}
+.s11{
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+	color: white;
+	padding-top: 140px;
+	box-sizing: border-box;
+}
+.s11 h2{
+	font-size: 36px;
+}
+.s2{
+	width: 100%;
+}
+.s22{
+	width: 1260px;
+	height: 100%;
+	margin: 0 auto;
+}
+.s221{
+	    width: 800px;
+    float: left;
+    display: inline;
+    overflow: hidden;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.s221 p{
+	line-height: 30px;
+	margin-top: 20px;
+}
+.s221 img{
+	width: 100%;
+	display: block;
+}
+.s222{
+	    width: 390px;
+    float: left;
+    margin-left: 69px;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.s222 img{
+	width: 100%;
+	margin-top: 50px;
+}
+.s2221{
+	width: 100%;
+	height: 300px;
+}
+.newslist{
+	width: 590px;
+    margin-left: 36px;
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;
+    height: 175px;
+}
+.newslist li:hover span{
+	color: lightblue;
+}
+.newslist li{
+	    height: 36px;
+    line-height: 35px;
+    border-top: 1px dashed #cecece;
+    margin-top: -2px;
+    position: relative;
+    font-size: 16px;
+    border-bottom: 1px dashed #ccc;
+	display: flex;
+	justify-content: start;
+
+}
+.newslist li a{
+	 display: flex;
+    justify-content: space-between;
+}
+.newslist li span{
+	width: auto;
+    overflow: hidden;
+    font-size: 14px;
+	color: black;
+}
+.newslist li .time{
+	color: #ccc;
+}
+.newslist div{
+	display: inline-block;
+	width: 38px;
+	height: 26px;
+	background: #ccc;
+	line-height: 26px;
+	text-align: center;
+}
+footer{
+	width: 100%;
+	/* height: 421px; */
+	background: white;
+	padding: 50px 0 0 0;
+	overflow: hidden;
+}
+footer .wrapper{
+	width: 1260px;
+	height: 263px;
+	margin: 0 auto;
+}
+.left{
+	width: 758px;
+	height: 263px;
+	float: left;
+}
+.right{
+	width: 288px;
+	height: 134px;
+	    float: right;
+    font-size: 12px;
+    text-align: center;
+}
+.left .list{
+	width: 758px;
+	height: 20px;
+}
+.left .list a{
+	 	color: black;
+}
+.left .list li{
+	 		float: left;
+    padding-right: 35px;
+    font-size: 14px;
+    border-right: 2px solid #5d5d5d;
+    margin-right: 35px;
+    line-height: 1;
+}
+.copyright{
+	font-size: 14px;
+    line-height: 2;
+    margin-top: 10px;
+}
+.youxi{
+	font-size: 12px;
+	line-height: 16px;
+}
+.bian{
+	font-size: 14px;
+    line-height: 2;
+    margin-top: 10px;
+    vertical-align: middle;
+    position: relative;
+}
+.bian a{
+	color: black;
+}
+.gongan{
+	display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 22px;
+    background: url('../img/gongan.jpg') no-repeat center;
+    margin-left: 44px;
+    margin-right: 9px;
+}
+.p1,.p2{
+	    margin-left: 34px;
+	    float: left;
+}
+.right img{
+	width: 110px;
+}
+.section1 img{
+	height: 713px;
+}

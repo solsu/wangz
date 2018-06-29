@@ -1,0 +1,231 @@
+/*
+* @Author: lisheng
+* @Date:   2018-05-29 15:22:26
+* @Last Modified by:   lisheng
+* @Last Modified time: 2018-05-31 19:07:11
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	/* 去除a标签的下划线 */
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 94px;
+	background: white;
+	
+}
+.head{
+	width:1000px;
+	height: 94px; 
+	margin: 0 auto;
+	overflow: hidden;
+}
+.log1{
+	    width: 148px;
+    height: 62px;
+    margin: 16px 36px 0 0;
+    float: left;
+}
+.log2{
+	    width: 212px;
+    height: 41px;
+    margin-top: 26px;
+    float: left;
+}
+.section1{
+	    position: relative;
+    background-color: #31a0db;
+    width: 100%;
+    height: 66px;
+    line-height: 66px;
+    z-index: 2
+}
+.section1 li:hover i{
+	transform: rotate(90deg);
+}
+.section1 li:hover{
+	background: rgba(0, 0, 250, 0.1)
+}
+.section1 nav{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.section1 nav li{
+	margin-right: 35px;
+	float: left;
+	position: relative;
+}
+.section1 li a{
+	color: white;
+}
+.section1 nav li .xl{
+	width: 100%;
+	position: absolute;
+	top: 66px;
+	left:0;
+	background: #31a0db;
+	display: none;
+}
+.section1 nav li .xl p{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.section1 nav li .xl p:hover{
+	background: rgba(0,0,250,0.2);
+}
+.section1 nav ul li a .icon-sanjiaofangxiangyoushixin{
+	font-size: 3px;
+	display: inline-block;
+	transition: all 0.1s;
+}
+.section2{
+	width: 100%;
+}
+.section2 img{
+	width: 100%;
+}
+.section3{
+	width: 100%;
+}
+.section3 h2{
+	font-size: 30px;
+	display: block;
+	border-bottom: 1px solid #ccc;
+	width: 1000px;
+	padding-bottom: 10px;
+	margin: 30px  auto 0;
+}
+.section3 span{
+	font-size: 15px;
+
+}
+.s2{
+	width: 1000px;
+	height: 2898px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: start;
+}
+.zuo{
+	padding-right: 10px;
+    width: 225px;
+    height: 100%;
+    border-right: 1px solid #bababa;
+    overflow: hidden;
+}
+.zuo .list{
+	    margin-top: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+.zuo .list a{
+	display: block;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	color: black;
+}
+.you{
+	width: 764px;
+	height: 2848px;
+	padding: 40px 35px 0;
+}
+.you h3{
+	display: block;
+	width: 100%;
+	height: 57px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	font-size: 24px;
+}
+.you p{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	line-height:22px;
+}
+.you ul li img{
+	width: 100%;
+}
+footer{
+	width: 100%;
+	/* height: 421px; */
+	background: white;
+	padding: 50px 0 0 0;
+	overflow: hidden;
+}
+footer .wrapper{
+	width: 1260px;
+	height: 263px;
+	margin: 0 auto;
+}
+.left{
+	width: 758px;
+	height: 263px;
+	float: left;
+}
+.right{
+	width: 288px;
+	height: 134px;
+	    float: right;
+    font-size: 12px;
+    text-align: center;
+}
+.left .list{
+	width: 758px;
+	height: 20px;
+}
+.left .list a{
+	 	color: black;
+}
+.left .list li{
+	 		float: left;
+    padding-right: 35px;
+    font-size: 14px;
+    border-right: 2px solid #5d5d5d;
+    margin-right: 35px;
+    line-height: 1;
+}
+.copyright{
+	font-size: 14px;
+    line-height: 2;
+    margin-top: 10px;
+}
+.youxi{
+	font-size: 12px;
+	line-height: 16px;
+}
+.bian{
+	font-size: 14px;
+    line-height: 2;
+    margin-top: 10px;
+    vertical-align: middle;
+    position: relative;
+}
+.bian a{
+	color: black;
+}
+.gongan{
+	display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 22px;
+    background: url('../img/gongan.jpg') no-repeat center;
+    margin-left: 44px;
+    margin-right: 9px;
+}
+.p1,.p2{
+	    margin-left: 34px;
+	    float: left;
+}
+.right img{
+	width: 110px;
+}
